@@ -10,7 +10,7 @@ The first step is to identify the participants or users of the API. The table be
 |User	       | Signup       |
 |              | Signin       |
 |              | SignOut      |
-| ------------ | ------------ |   
+| |  |   
 | Buyer	       |Browse Products |
 |              | View           |
 |              | Like/unlike Products |
@@ -23,14 +23,14 @@ The first step is to identify the participants or users of the API. The table be
 |               | View Likes |
 |               | View Recommendations |
 |               | View/Edit account |
-| ------------- | ----------------- |
+|  |  |
 | Admin	        | add/edit/archive Products |
 |               | view all orders |
 |               | view all users |
 |               | view/edit order |
 |               | view dashboard |
 |               | View/edit user information |
-| ------------- | -------------------------- |
+|  |  |
 | Owner	| admin activities |
 |        | view/add/edit admin |
 
