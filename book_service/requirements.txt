@@ -2,7 +2,7 @@ annotated-types==0.7.0
 anyio==4.9.0
 click==8.1.8
 exceptiongroup==1.2.2
-fastapi==0.115.12
+fastapi[standard]
 greenlet==3.2.0
 h11==0.14.0
 idna==3.10
