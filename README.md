@@ -66,26 +66,33 @@ The following status codes will be used in the app.
 | 403 Forbidden	| Authorization Failed | All |
 | 404 Not Found | Resource not Found | Get, Put, Delete | 
 
-Steps to create endpoint
-- import FastAPI and create an instance
-- create route
-    - choose an operation (POST, GET, PUT, DELETE)
-    - define a path operation decorator (@app.get("/))
-    - define the path operation function.
-- Define Schema
-
 
 The tools for the app:
-- FastAPI as the api framework.
-- SQLModel 
-- Postman for testing endpoints.
+- FastAPI for HTTP requests.
+- SQLAlchemy for database operations.
+- Kubernetes to orchestrate containers.
+- Docker for containers.
+- JWT for authentication.
+- Postgres for database management.
+
+Microservices:
+- Authentication Service
+- Orders Service
+- Payments Service
+- Machine Learning Service
+- Books Service
 
 
 ## Useful Commands
 - Create a virtual environment to isolate the packages.
  ```virtualenv -p python3 venv```
 - Activate the environment
-```source myenv/bin/activate```
-- Create requirements.txt and add packages
-- Install packages with pip
+```source venv/bin/activate```
+- Install Pacges 
+```pip install fastapi``
+- View Packages
+```pip list``
+- Create requirements.txt file using the installed packages
+```pip freeze > requirements.txt```
+- Install packages in the requirements.txt file
 ```pip3 install -r requirements.txt```
